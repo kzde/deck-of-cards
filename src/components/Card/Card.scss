@@ -1,0 +1,10 @@
+.Card {
+    width: 120px;
+    margin: 20px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
