@@ -4,11 +4,28 @@ import './CardContainer.scss';
 
 const CardContainer = (props) => {
 
+    const displayAllCard = () => {
+        return props.cards.map((card, index) => <Card key={index} card={card} />)
+    }
+
+    const displayOneCard = () => {
+        return (
+            <div className="onecarddisplay">
+                <div>Rest cards : {props.cards.length}</div>
+                {props.cards.length !== 0 ?
+                    <Card card={props.card} /> :
+                    <div>No more card, click shuffle to restart</div>
+                }
+            </div>
+        )
+    }
+
     return (
         <div className="CardContainer">
-            {props.cards.map((card, index ) => {
-                return (<Card key={index} card={card} />)
-            })}
+            {
+                props.dealOneCard ? displayOneCard() :
+                    displayAllCard()
+            }
         </div>
     )
 }

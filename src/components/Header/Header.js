@@ -6,7 +6,8 @@ import './Header.scss';
 
 const Header = (props) => {
 
-    const shuffleHandler = () => props.handleShuffle()
+    const shuffleHandler = () => props.handleShuffle();
+    const dealOneCardHandler = () => props.handleDealOneCard();
 
     return (
         <div className="Header">
@@ -15,7 +16,7 @@ const Header = (props) => {
                     Deck Of Cards
                 </Typography>
                 <Button color="inherit" onClick={shuffleHandler}>Shuffle</Button>
-                <Button color="inherit">Deal One Card</Button>
+                <Button color="inherit" onClick={dealOneCardHandler}>Deal One Card</Button>
             </AppBar>
         </div>
     )

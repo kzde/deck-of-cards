@@ -2,4 +2,17 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+
+    .onecarddisplay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 30;
+
+        div {
+            margin: 15px
+        }
+    }
 }
