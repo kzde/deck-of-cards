@@ -1,5 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Header from '../src/components/Header/Header';
 
-const App = () => <div>Deck of cards</div>
+const App = () => {
+    return (
+        <Fragment>
+            <Header />
+        </Fragment>
+    )
+}
 
 export default App;
