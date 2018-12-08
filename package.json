@@ -6,7 +6,8 @@
   "author": "kzde",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development --hot",
+    "start": "node server.js",
+    "dev": "webpack-dev-server --open --mode development --hot",
     "build": "webpack --mode production",
     "watch": "webpack --watch",
     "test": "jest --watchAll"
@@ -33,6 +34,7 @@
   },
   "dependencies": {
     "@material-ui/core": "^3.6.1",
+    "express": "^4.16.4",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
