@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '../../components/Card/Card';
+import PropTypes from 'prop-types';
 import './CardContainer.scss';
 
 const CardContainer = (props) => {
@@ -28,6 +29,10 @@ const CardContainer = (props) => {
             }
         </div>
     )
+}
+
+CardContainer.propTypes = {
+    cards: PropTypes.arrayOf(PropTypes.object).isRequired
 }
 
 export default CardContainer;

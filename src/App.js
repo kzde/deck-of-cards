@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import {shuffle, generateCards, dealOneCard} from './helpers/index';
+import { shuffle, generateCards, dealOneCard } from './helpers/index';
 import Header from '../src/components/Header/Header';
 import CardContainer from '../src/components/CardContainer/CardContainer';
 
@@ -17,8 +17,8 @@ class App extends Component {
         this.handleDealOneCard = this.handleDealOneCard.bind(this);
     }
 
-    handleShuffle(){
-        if(this.state.cards.length === 0) {
+    handleShuffle() {
+        if (this.state.cards.length === 0) {
             this.setState({
                 cards: shuffle(generateCards())
             })
@@ -34,15 +34,15 @@ class App extends Component {
         })
     }
 
-    handleDealOneCard(){
-        if(!this.state.shuffleForDealOneCard) {
+    handleDealOneCard() {
+        if (!this.state.shuffleForDealOneCard) {
             shuffle(this.state.cards);
             this.setState({
                 shuffleForDealOneCard: true
             })
         }
-        const {card, cards} = dealOneCard(this.state.cards);
-        
+        const { card, cards } = dealOneCard(this.state.cards);
+
         this.setState({
             card,
             cards,
@@ -50,17 +50,17 @@ class App extends Component {
         })
     }
 
-    render(){
+    render() {
         return (
             <Fragment>
-                <Header 
+                <Header
                     handleShuffle={this.handleShuffle}
                     handleDealOneCard={this.handleDealOneCard}
                 />
-                <CardContainer 
-                    card={this.state.card} 
-                    cards={this.state.cards} 
-                    dealOneCard={this.state.dealOneCard} 
+                <CardContainer
+                    card={this.state.card}
+                    cards={this.state.cards}
+                    dealOneCard={this.state.dealOneCard}
                 />
             </Fragment>
         )
