@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should renders correctly 1`] = `
+Array [
+  <Header
+    handleDealOneCard={[Function]}
+    handleShuffle={[Function]}
+  />,
+  <CardContainer
+    card={Object {}}
+    cards={
+      Array [
+        Object {
+          "group": "heart",
+          "value": "Ace",
+        },
+        Object {
+          "group": "heart",
+          "value": "2",
+        },
+        Object {
+          "group": "heart",
+          "value": "3",
+        },
+        Object {
+          "group": "heart",
+          "value": "4",
+        },
+        Object {
+          "group": "heart",
+          "value": "5",
+        },
+        Object {
+          "group": "heart",
+          "value": "6",
+        },
+        Object {
+          "group": "heart",
+          "value": "7",
+        },
+        Object {
+          "group": "heart",
+          "value": "8",
+        },
+        Object {
+          "group": "heart",
+          "value": "9",
+        },
+        Object {
+          "group": "heart",
+          "value": "10",
+        },
+        Object {
+          "group": "heart",
+          "value": "Jack",
+        },
+        Object {
+          "group": "heart",
+          "value": "Queen",
+        },
+        Object {
+          "group": "heart",
+          "value": "King",
+        },
+        Object {
+          "group": "spade",
+          "value": "Ace",
+        },
+        Object {
+          "group": "spade",
+          "value": "2",
+        },
+        Object {
+          "group": "spade",
+          "value": "3",
+        },
+        Object {
+          "group": "spade",
+          "value": "4",
+        },
+        Object {
+          "group": "spade",
+          "value": "5",
+        },
+        Object {
+          "group": "spade",
+          "value": "6",
+        },
+        Object {
+          "group": "spade",
+          "value": "7",
+        },
+        Object {
+          "group": "spade",
+          "value": "8",
+        },
+        Object {
+          "group": "spade",
+          "value": "9",
+        },
+        Object {
+          "group": "spade",
+          "value": "10",
+        },
+        Object {
+          "group": "spade",
+          "value": "Jack",
+        },
+        Object {
+          "group": "spade",
+          "value": "Queen",
+        },
+        Object {
+          "group": "spade",
+          "value": "King",
+        },
+        Object {
+          "group": "club",
+          "value": "Ace",
+        },
+        Object {
+          "group": "club",
+          "value": "2",
+        },
+        Object {
+          "group": "club",
+          "value": "3",
+        },
+        Object {
+          "group": "club",
+          "value": "4",
+        },
+        Object {
+          "group": "club",
+          "value": "5",
+        },
+        Object {
+          "group": "club",
+          "value": "6",
+        },
+        Object {
+          "group": "club",
+          "value": "7",
+        },
+        Object {
+          "group": "club",
+          "value": "8",
+        },
+        Object {
+          "group": "club",
+          "value": "9",
+        },
+        Object {
+          "group": "club",
+          "value": "10",
+        },
+        Object {
+          "group": "club",
+          "value": "Jack",
+        },
+        Object {
+          "group": "club",
+          "value": "Queen",
+        },
+        Object {
+          "group": "club",
+          "value": "King",
+        },
+        Object {
+          "group": "diamond",
+          "value": "Ace",
+        },
+        Object {
+          "group": "diamond",
+          "value": "2",
+        },
+        Object {
+          "group": "diamond",
+          "value": "3",
+        },
+        Object {
+          "group": "diamond",
+          "value": "4",
+        },
+        Object {
+          "group": "diamond",
+          "value": "5",
+        },
+        Object {
+          "group": "diamond",
+          "value": "6",
+        },
+        Object {
+          "group": "diamond",
+          "value": "7",
+        },
+        Object {
+          "group": "diamond",
+          "value": "8",
+        },
+        Object {
+          "group": "diamond",
+          "value": "9",
+        },
+        Object {
+          "group": "diamond",
+          "value": "10",
+        },
+        Object {
+          "group": "diamond",
+          "value": "Jack",
+        },
+        Object {
+          "group": "diamond",
+          "value": "Queen",
+        },
+        Object {
+          "group": "diamond",
+          "value": "King",
+        },
+      ]
+    }
+    dealOneCard={false}
+  />,
+]
+`;

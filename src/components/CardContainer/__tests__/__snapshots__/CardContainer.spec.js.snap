@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should renders correctly 1`] = `
+<div
+  className="CardContainer"
+>
+  <Card
+    card={
+      Object {
+        "group": "club",
+        "value": "queen",
+      }
+    }
+  />
+  <Card
+    card={
+      Object {
+        "group": "spade",
+        "value": "ase",
+      }
+    }
+  />
+</div>
+`;

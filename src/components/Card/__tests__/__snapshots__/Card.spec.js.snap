@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should renders correctly 1`] = `
+<div
+  className="Card"
+>
+  <Paper>
+    <div>
+      ♣️
+    </div>
+    <div
+      className="club"
+    >
+      queen
+    </div>
+  </Paper>
+</div>
+`;

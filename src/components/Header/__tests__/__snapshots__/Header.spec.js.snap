@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should renders correctly 1`] = `
+<div
+  className="Header"
+>
+  <AppBar
+    position="static"
+  >
+    <Typography
+      color="inherit"
+      variant="h6"
+    >
+      Deck Of Cards
+    </Typography>
+    <Button
+      color="inherit"
+      onClick={[Function]}
+    >
+      Shuffle
+    </Button>
+    <Button
+      color="inherit"
+      onClick={[Function]}
+    >
+      Deal One Card
+    </Button>
+  </AppBar>
+</div>
+`;
