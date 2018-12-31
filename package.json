@@ -6,7 +6,7 @@
   "author": "kzde",
   "license": "MIT",
   "scripts": {
-    "start": "http-server ./dist",
+    "start": "webpack --mode production",
     "start-dev": "webpack-dev-server --open --mode development --hot",
     "build": "webpack --mode production",
     "watch": "webpack --watch",
