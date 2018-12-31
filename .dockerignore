@@ -1,0 +1,6 @@
+.git
+.vscode
+.gitattributes
+.gitignore
+README.adoc
+node_modules
